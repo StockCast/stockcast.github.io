@@ -1,0 +1,19 @@
+title: StockCast News
+email: stockcast.app@gmail.com
+description: >-
+  StockCast News - Blog com notícias e atualizações sobre o aplicativo StockCast.
+baseurl: ""
+url: "https://news.stockcast.com.br"
+urlBlog: "https://news.stockcast.com.br"
+
+theme: 
+
+plugins:
+  - jekyll-feed
+
+include:
+  - assets/css
+
+sass:
+  sass_dir: assets/css
+  style: compressed
