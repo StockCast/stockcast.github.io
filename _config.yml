@@ -3,8 +3,8 @@ email: stockcast.app@gmail.com
 description: >-
   StockCast News - Blog com notícias e atualizações sobre o aplicativo StockCast.
 baseurl: ""
-url: "https://news.stockcast.com.br"
-urlBlog: "https://news.stockcast.com.br"
+url: "https://stockcast.github.io"
+urlBlog: "https://stockcast.github.io"
 
 theme: 
 
