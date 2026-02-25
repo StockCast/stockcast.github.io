@@ -63,30 +63,37 @@ header {
   border-bottom: 2px solid var(--border);
 }
 
-.logo a {
-  font-size: 1.5em;
+.site-nav__logo {
+  font-size: 1.4em;
   font-weight: 700;
   color: var(--primary);
   text-decoration: none;
 }
 
-.logo a:hover {
+.site-nav__logo:hover {
   color: var(--primary);
   text-decoration: none;
 }
 
-nav {
+.site-nav__links {
   display: flex;
   gap: 24px;
 }
 
-nav a {
+.site-nav__links a {
   font-weight: 500;
   color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
 }
 
-nav a:hover {
+.site-nav__links a:hover,
+.site-nav__links a.active {
   color: var(--primary);
+  border-bottom: 2px solid var(--card-hover);
+  text-decoration: none;
 }
 
 main {
@@ -336,13 +343,21 @@ footer p {
   }
 
   header {
-    padding: 16px 20px;
+    padding: 12px 20px;
     flex-direction: column;
     gap: 12px;
   }
 
-  nav {
+  .site-nav__logo {
+    font-size: 1.2em;
+  }
+
+  .site-nav__links {
     gap: 16px;
+  }
+
+  .site-nav__links a {
+    font-size: 0.9em;
   }
 
   main {
