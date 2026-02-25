@@ -12,17 +12,25 @@
 
     <main>
       <article class="post-content">
-        <a href="{{ site.url }}" class="back-link">← Back to blog</a>
+        <a href="{{ site.url }}" class="back-link">← Voltar</a>
         
-        <h1>{{ page.title }}</h1>
-        <p class="post-meta">
-          {{ page.date | date: "%B %d, %Y" }}
-          {% if page.author %}
-          &middot; <span class="author">{{ page.author }}</span>
-          {% else %}
-          &middot; <span class="author">StockCast</span>
-          {% endif %}
-        </p>
+        {% if page.categories %}
+        <span class="post-category">{{ page.categories | first }}</span>
+        {% endif %}
+        
+        <h1 class="post-title">{{ page.title }}</h1>
+        
+        {% if page.subtitle %}
+        <p class="post-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        
+        <div class="post-byline">
+          <span class="author">Por {{ page.author | default: "StockCast" }}</span>
+          <span class="separator">·</span>
+          <span class="date">{{ page.date | date: "%d de %B de %Y" }}</span>
+          <span class="separator">·</span>
+          <span class="read-time">{{ content | number_of_words | divided_by: 200 | ceil }} min de leitura</span>
+        </div>
         
         {{ content }}
       </article>

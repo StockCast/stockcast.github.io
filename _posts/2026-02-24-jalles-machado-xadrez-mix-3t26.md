@@ -18,7 +18,7 @@ Em uma leitura de mercado que desafiou o consenso, a Jalles Machado executou um 
 
 Essa mudança foi, em parte, uma resposta à realidade operacional: o _ramp-up_ da nova planta de açúcar em Santa Vitória foi mais lento do que o projetado, o que conferiu à empresa a flexibilidade necessária para capturar a melhor remuneração do etanol no mercado interno. Ao mesmo tempo, a estratégia protegeu a margem contra a pressão nas cotações internacionais do açúcar (NY#11), infladas pela perspectiva de superávit global e pelo aumento da produção indiana.
 
-"Priorizamos a comercialização de etanol... refletindo o ajuste de mix adotado ao longo da safra diante de melhores condições de remuneração do biocombustível em relação ao açúcar."
+> "Priorizamos a comercialização de etanol... refletindo o ajuste de mix adotado ao longo da safra diante de melhores condições de remuneração do biocombustível em relação ao açúcar."
 
 ## 3. Produtividade Recorde: O Fenômeno da Unidade Jalles Machado (UJM)
 
@@ -38,7 +38,7 @@ O investidor que olha apenas a linha final do balanço pode ser enganado por um 
 
 O impacto de R$ 157 milhões no trimestre é meramente contábil e **não representa impacto no caixa real**. Pelo contrário, o "Lucro Caixa" foi superior ao do ano passado, provando que a operação está gerando valor real. Como destacou o CFO Rodrigo Siqueira:
 
-"Foi um trimestre que a gente teve um resultado recorrente positivo... que foi um pouco distorcido por conta da inclinação da curva de juros."
+> "Foi um trimestre que a gente teve um resultado recorrente positivo... que foi um pouco distorcido por conta da inclinação da curva de juros."
 
 ## 6. O Fator E30: A Próxima Fronteira do Mercado Brasileiro
 

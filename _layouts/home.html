@@ -11,20 +11,17 @@
     {% include header.html %}
 
     <main>
+      <h1 class="home-heading">Últimas Notícias</h1>
+      
       <div class="post-list">
         {% for post in site.posts %}
         <article class="post-card">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <p class="post-meta">
-            {{ post.date | date: "%B %d, %Y" }}
-            {% if post.author %}
-            &middot; <span class="author">{{ post.author }}</span>
-            {% else %}
-            &middot; <span class="author">StockCast</span>
-            {% endif %}
+            {{ post.date | date: "%d de %B de %Y" }}
           </p>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
-          <a href="{{ post.url }}" class="read-more">Read more →</a>
+          <a href="{{ post.url }}" class="read-more">Ler mais →</a>
         </article>
         {% endfor %}
       </div>
