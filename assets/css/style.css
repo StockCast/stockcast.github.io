@@ -29,6 +29,7 @@ body {
   color: var(--text);
   background: var(--background);
   min-height: 100vh;
+  padding: 20px;
 }
 
 .container {
@@ -221,12 +222,17 @@ p {
 
 /* Editorial: Category Tag */
 .post-category {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  display: inline-flex;
+  align-items: center;
+  background: white;
   color: var(--primary);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   margin-bottom: 12px;
 }
 
@@ -315,9 +321,30 @@ p {
 
 footer {
   text-align: center;
-  padding: 24px 40px;
+  padding: 40px 40px 30px 40px;
   border-top: 2px solid var(--border);
   background: #F9FAFB;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 0.95em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
 }
 
 footer p {
@@ -328,9 +355,10 @@ footer p {
 
 /* Homepage heading */
 .home-heading {
-  font-size: 2.5rem;
+  font-size: 2em;
   margin-bottom: 32px;
   color: var(--primary);
+  letter-spacing: -0.5px;
 }
 
 @media (max-width: 768px) {
@@ -400,6 +428,17 @@ footer p {
   }
 
   footer {
-    padding: 20px;
+    padding: 28px 20px;
+  }
+
+  .footer-links {
+    gap: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
   }
 }
