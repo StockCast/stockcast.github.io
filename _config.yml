@@ -6,6 +6,8 @@ baseurl: ""
 url: "https://news.stockcast.com.br"
 urlBlog: "https://news.stockcast.com.br"
 
+posthog_api_key: "phc_CLVTopIBYCwPZnuVerKJCvHvA8hYlCAikBiKBJPlPpL"
+
 theme: 
 
 plugins:
