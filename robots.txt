@@ -1,0 +1,6 @@
+# robots.txt for StockCast
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://news.stockcast.com.br/sitemap.xml
