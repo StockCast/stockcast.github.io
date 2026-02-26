@@ -369,7 +369,6 @@ footer p {
 
   header {
     padding: 12px 20px;
-    flex-direction: column;
     gap: 12px;
   }
 
