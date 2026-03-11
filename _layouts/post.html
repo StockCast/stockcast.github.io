@@ -27,11 +27,12 @@
 
     <main>
       <article class="post-content">
-        <a href="{{ site.url }}" class="back-link">← Voltar</a>
-        
-        {% if page.categories %}
-        <span class="post-category">{{ page.categories | first }}</span>
-        {% endif %}
+        <div class="post-header-nav">
+          <a href="{{ site.url }}" class="back-link">← Voltar</a>
+          {% if page.categories %}
+          <span class="post-category">{{ page.categories | first }}</span>
+          {% endif %}
+        </div>
         
         <h1 class="post-title">{{ page.title }}</h1>
         

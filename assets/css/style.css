@@ -218,20 +218,27 @@ p {
   padding: 0;
 }
 
+/* Editorial: Post Header Nav */
+.post-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
 /* Editorial: Category Tag */
 .post-category {
   display: inline-flex;
   align-items: center;
-  background: white;
-  color: var(--primary);
+  background: var(--primary);
+  color: white;
   padding: 4px 12px;
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  margin-bottom: 12px;
+  box-shadow: none;
 }
 
 /* Editorial: Post Title */
@@ -285,8 +292,6 @@ p {
 }
 
 .back-link {
-  display: inline-block;
-  margin-bottom: 24px;
   color: var(--primary);
   font-weight: 500;
 }

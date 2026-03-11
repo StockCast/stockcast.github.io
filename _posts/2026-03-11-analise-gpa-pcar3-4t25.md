@@ -3,7 +3,7 @@ layout: post
 title: "GPA (PCAR3) — Análise de Resultados 4T25"
 date: 2026-03-11
 author: StockCast
-categories: [earnings, varejo]
+categories: [analise, varejo]
 tags: [PCAR3, GPA, "Pão de Açúcar", varejo, resultados, 4T25]
 excerpt: "Turnaround operacional real, mas crise financeira estrutural persiste. FCL 2,6x maior, margem bruta recorde no segmento — e dívida de CP que dobrou em 12 meses."
 ---

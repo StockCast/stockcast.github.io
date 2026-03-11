@@ -3,7 +3,7 @@ layout: post
 title: "TICKER (TICKR3) — Análise de Resultados NTrim/Ano"
 date: YYYY-MM-DD
 author: StockCast
-categories: [earnings, setor]
+categories: [analise, setor]
 tags: [TICKR3, NomeDaEmpresa, setor, resultados, NTrim/Ano]
 excerpt: "Uma frase sobre o resultado principal e a tese central de investimento."
 ---
