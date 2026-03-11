@@ -439,3 +439,101 @@ footer p {
     transition: none !important;
   }
 }
+
+/* ============================================================
+   MELHORIAS DE FORMATAÇÃO DOS POSTS
+   ============================================================ */
+
+/* Tabelas: header colorido, zebra rows, bordas arredondadas */
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 28px 0;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.post-content table th {
+  background-color: var(--primary);
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 11px 16px;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+
+.post-content table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.post-content table tr:last-child td {
+  border-bottom: none;
+}
+
+.post-content table tr:nth-child(even) td {
+  background-color: #F4F7FD;
+}
+
+.post-content table td:first-child {
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* H2 no conteúdo do post: borda inferior para delimitar seções */
+.post-content h2 {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 10px;
+  margin-top: 48px;
+}
+
+/* H3 no conteúdo do post: azul do tema para manter hierarquia visual */
+.post-content h3 {
+  color: var(--primary);
+  margin-top: 32px;
+}
+
+/* HR: separador de seção elegante */
+.post-content hr {
+  border: none;
+  border-top: 2px solid var(--border);
+  margin: 44px 0;
+}
+
+/* Blockquote: normalizar para uso como callout (não pull quote editorial) */
+.post-content blockquote {
+  margin: 28px 0;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+/* Listas: indentação e espaçamento (resetados pelo * { padding: 0 } global) */
+.post-content ul,
+.post-content ol {
+  padding-left: 28px;
+  margin-top: 4px;
+  margin-bottom: var(--paragraph-spacing);
+}
+
+.post-content li {
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  line-height: var(--line-height);
+}
+
+.post-content li:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile: tabelas com scroll horizontal */
+@media (max-width: 768px) {
+  .post-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
