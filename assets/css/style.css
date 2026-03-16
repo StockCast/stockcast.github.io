@@ -356,6 +356,13 @@ footer p {
   margin: 0;
 }
 
+/* Homepage banner */
+.home-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Homepage heading */
 .home-heading {
   font-size: 2em;
