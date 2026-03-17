@@ -69,9 +69,12 @@ header {
   text-decoration: none;
 }
 
-.site-nav__logo:hover {
+.site-nav__logo:hover,
+.site-nav__logo.active {
   color: var(--primary);
   text-decoration: none;
+  border-bottom: 2px solid var(--card-hover);
+  margin-bottom: -2px;
 }
 
 .site-nav__links {
