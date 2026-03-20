@@ -40,26 +40,10 @@
         <p class="post-subtitle">{{ page.subtitle }}</p>
         {% endif %}
  
-        {% assign m = page.date | date: "%-m" %}
-        {% case m %}
-          {% when '1' %}{% assign mes_pt = "Janeiro" %}
-          {% when '2' %}{% assign mes_pt = "Fevereiro" %}
-          {% when '3' %}{% assign mes_pt = "Março" %}
-          {% when '4' %}{% assign mes_pt = "Abril" %}
-          {% when '5' %}{% assign mes_pt = "Maio" %}
-          {% when '6' %}{% assign mes_pt = "Junho" %}
-          {% when '7' %}{% assign mes_pt = "Julho" %}
-          {% when '8' %}{% assign mes_pt = "Agosto" %}
-          {% when '9' %}{% assign mes_pt = "Setembro" %}
-          {% when '10' %}{% assign mes_pt = "Outubro" %}
-          {% when '11' %}{% assign mes_pt = "Novembro" %}
-          {% when '12' %}{% assign mes_pt = "Dezembro" %}
-        {% endcase %}
-        
         <div class="post-byline">
           <span class="author">Por {{ page.author | default: "StockCast" }}</span>
           <span class="separator">·</span>
-          <span class="date">{{ page.date | date: "%d" }} de {{ mes_pt }} de {{ page.date | date: "%Y" }}</span>
+          <span class="date">{% include localize-date.html date=page.date %}</span>
           <span class="separator">·</span>
           <span class="read-time">{{ content | number_of_words | divided_by: 200 | ceil }} min de leitura</span>
         </div>
