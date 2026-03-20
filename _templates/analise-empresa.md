@@ -1,3 +1,5 @@
+gerar post para publicação no Jekyll utilizando o seguinte template:
+
 ---
 layout: post
 title: "TICKER (TICKR3) — Análise de Resultados NTrim/Ano"
