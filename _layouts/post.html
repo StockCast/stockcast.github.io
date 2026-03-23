@@ -113,6 +113,8 @@
           <span class="read-time">{{ content | number_of_words | divided_by: 200 | ceil }} min de leitura</span>
         </div>
         
+        {% include cta-app.html %}
+
         {{ content }}
       </article>
     </main>
