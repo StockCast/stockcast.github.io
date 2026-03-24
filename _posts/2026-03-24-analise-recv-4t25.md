@@ -2,7 +2,7 @@
 layout: post
 title: "PetroReconcavo (RECV3) — Análise de Resultados 4T25/2025"
 date: 2026-03-24
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, petroleo-e-gas]
 tags: [RECV3, PetroReconcavo, petroleo-e-gas, resultados, 4T25]
 excerpt: "Receita resiliente (-3% YoY) apesar do Brent -14%, mas LL ajustado cai 40%. Modelo óleo+gás se prova defensivo, com dividend yield de ~15% e alavancagem confortável de 1,1x."
