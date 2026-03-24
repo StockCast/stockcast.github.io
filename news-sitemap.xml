@@ -4,7 +4,7 @@ layout:
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% assign cutoff_seconds = 5184000 %}
+  {% assign cutoff_seconds = 172800 %}
   {% assign current_time = site.time | date: '%s' | plus: 0 %}
   {% assign cutoff_time = current_time | minus: cutoff_seconds %}
   {% for post in site.posts %}
