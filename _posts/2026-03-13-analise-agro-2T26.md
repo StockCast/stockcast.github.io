@@ -2,7 +2,7 @@
 layout: post
 title: "BrasilAgro (AGRO3) — Análise de Resultados 2T26"
 date: 2026-03-13
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, agronegocio]
 tags: [AGRO3, BrasilAgro, agronegócio, resultados, 2T26]
 excerpt: "Prejuízo de R$ 61,8 mi no semestre esconde geração de caixa positiva e desconto de 47% sobre o NAV. A tese depende da recuperação da cana e da colheita de grãos no 2º semestre."

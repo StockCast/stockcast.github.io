@@ -2,7 +2,7 @@
 layout: post
 title: "Embraer 2025: O Salto Histórico de US$ 31,6 Bilhões e a Estratégia por Trás dos Recordes"
 date: 2026-03-10 10:00:00 -0300
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: resultados EMBJ 4T25
 ---
 

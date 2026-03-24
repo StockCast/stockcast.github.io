@@ -2,7 +2,7 @@
 layout: post
 title: "Blau Farmacêutica (BLAU3) — Análise de Resultados 4T25/2025"
 date: 2026-03-20
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, farmaceutico]
 tags: [BLAU3, BlauFarmaceutica, farmaceutico, biotecnologia, resultados, 4T25]
 excerpt: "Receita cai 3% mas margem bruta expande 260 bps: Blau aposta em eficiência e anticorpos monoclonais para virar o jogo a partir de 2026."

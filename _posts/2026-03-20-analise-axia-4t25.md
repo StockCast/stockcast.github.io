@@ -2,7 +2,7 @@
 layout: post
 title: "AXIA Energia (AXIA3) — Análise de Resultados 4T25"
 date: 2026-03-20
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, energia]
 tags: [AXIA3, AXIA Energia, Eletrobras, energia, resultados, 4T25]
 excerpt: "Lucro ajustado de R$ 1,25 bi (+141% YoY) marca o fim oficial do turnaround, com dividendos recordes de R$ 8,3 bi e investimentos de R$ 9,6 bi acelerando a transição para a fase de crescimento."

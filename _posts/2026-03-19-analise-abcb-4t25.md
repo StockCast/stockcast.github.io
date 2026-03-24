@@ -2,7 +2,7 @@
 layout: post
 title: "Banco ABC Brasil (ABCB4) — Análise de Resultados 4T25/2025"
 date: 2026-03-19
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, bancos]
 tags: [ABCB4, BancoABCBrasil, bancos, resultados, 4T25]
 excerpt: "Lucro líquido atinge R$1 bilhão pela primeira vez, com ROAE de 15,2% e qualidade de crédito excepcional. Guidance 2026 acelera crescimento no Middle Market."

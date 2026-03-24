@@ -2,7 +2,7 @@
 layout: post
 title: "Alpargatas (ALPA4) — Análise de Resultados 4T25/2025"
 date: 2026-03-20
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, consumo]
 tags: [ALPA4, Alpargatas, Havaianas, consumo, calçados, resultados, 4T25]
 excerpt: "Lucro líquido recorde de R$ 568 mi encerra turnaround de três anos. Margem bruta Brasil no maior nível da história (48,3%) e operação internacional volta ao lucro — mas a nova aposta nos EUA ainda precisa provar resultados."

@@ -2,7 +2,7 @@
 layout: post
 title: "CSN Mineração (CMIN3) — Análise de Resultados 4T25/2025"
 date: 2026-03-15
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, mineracao]
 tags: [CMIN3, CSN Mineração, mineração, minério de ferro, resultados, 4T25]
 excerpt: "Recordes operacionais em volume e superação do guidance marcam um 2025 sólido, mas variação cambial distorce o lucro líquido. P15 avança e prêmios surpreendem positivamente."

@@ -2,7 +2,7 @@
 layout: post
 title: "Jalles Machado e o Xadrez do Mix: Como a Resiliência e a Estratégia Venceram a Seca no 3T26"
 date: 2026-02-24 18:00:00 -0300
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: resultados Jalles Machado 3T26
 ---
 

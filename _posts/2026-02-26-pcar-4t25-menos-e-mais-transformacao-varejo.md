@@ -2,7 +2,7 @@
 layout: post
 title: "Menos é Mais: O que a reviravolta do GPA nos ensina sobre o novo varejo brasileiro"
 date: 2026-02-26 12:00:00 -0300
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: resultados PCAR 4T25
 ---
 
