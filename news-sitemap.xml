@@ -1,0 +1,22 @@
+---
+layout: 
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign cutoff_seconds = 5184000 %}
+  {% assign current_time = site.time | date: '%s' | plus: 0 %}
+  {% assign cutoff_time = current_time | minus: cutoff_seconds %}
+  {% for post in site.posts %}
+    {% assign post_time = post.date | date: '%s' | plus: 0 %}
+    {% if post_time >= cutoff_time %}
+      {% unless post.url contains '.xml' or post.url contains 'assets' %}
+        <url>
+          <loc>{{ site.url }}{{ post.url | replace: 'index.html', '' }}</loc>
+          <changefreq>monthly</changefreq>
+          <priority>1.0</priority>
+        </url>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</urlset>
