@@ -4,7 +4,7 @@ gerar post para publicação no Jekyll utilizando o seguinte template:
 layout: post
 title: "TICKER (TICKR3) — Análise de Resultados NTrim/Ano"
 date: YYYY-MM-DD
-author: StockCast
+author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, setor]
 tags: [TICKR3, NomeDaEmpresa, setor, resultados, NTrim/Ano]
 excerpt: "Uma frase sobre o resultado principal e a tese central de investimento."
