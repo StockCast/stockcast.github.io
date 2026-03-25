@@ -1,0 +1,16 @@
+<div class="cta-app">
+  <div class="cta-app__icon">
+    <img src="https://stockcast.com.br/favicon.png" alt="StockCast" width="40" height="40">
+  </div>
+  <div class="cta-app__text">
+    <strong class="cta-app__title">Ouça a conferência completa no StockCast</strong>
+    <span class="cta-app__sub">Sem tempo pra ler? Ouça nossa análise exclusiva.</span>
+  </div>
+  <a class="cta-app__btn"
+     href="https://play.google.com/store/apps/details?id=br.eng.jebertacchi.StockCast&referrer=utm_source%3Dblog%26utm_medium%3Dcta_inline_top%26utm_campaign%3D{{ page.slug | default: page.title | slugify }}"
+     target="_blank"
+     rel="noopener"
+     onclick="posthog.capture('cta_click', { origin: 'blog_inline', cta: 'play_store', post: '{{ page.title | escape }}', category: '{{ page.categories | first }}' })">
+    Baixar grátis
+  </a>
+</div>
