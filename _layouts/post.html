@@ -94,6 +94,25 @@
 
     gtag('config', 'AW-17856991074');
   </script>
+  <!-- Event snippet for Clique em CTA (2) conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17856991074/iSj1CNDWko8cEOKe8MJC',
+        'value': 1.0,
+        'currency': 'BRL',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
 </head>
 <body>
   <div class="container">
