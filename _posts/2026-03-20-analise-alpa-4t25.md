@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Alpargatas (ALPA4) — Análise de Resultados 4T25/2025"
+title: "Alpargatas (ALPA4) — Análise de Resultados 4T25"
 date: 2026-03-20
 author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, consumo]

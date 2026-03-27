@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blau Farmacêutica (BLAU3) — Análise de Resultados 4T25/2025"
+title: "Blau Farmacêutica (BLAU3) — Análise de Resultados 4T25"
 date: 2026-03-20
 author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, farmaceutico]

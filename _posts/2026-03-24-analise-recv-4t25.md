@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PetroReconcavo (RECV3) — Análise de Resultados 4T25/2025"
+title: "PetroReconcavo (RECV3) — Análise de Resultados 4T25"
 date: 2026-03-24
 author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, petroleo-e-gas]

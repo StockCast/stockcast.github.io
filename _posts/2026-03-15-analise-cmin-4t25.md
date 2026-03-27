@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSN Mineração (CMIN3) — Análise de Resultados 4T25/2025"
+title: "CSN Mineração (CMIN3) — Análise de Resultados 4T25"
 date: 2026-03-15
 author: João Eduardo F. Bertacchi (para StockCast)
 categories: [analise, mineracao]
