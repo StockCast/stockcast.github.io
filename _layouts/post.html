@@ -134,11 +134,15 @@
         {% endif %}
  
         <div class="post-byline">
+          <div>
           <span class="author">Por {{ page.author | default: "StockCast" }}</span>
           <span class="separator">·</span>
+          </div>
+          <div>
           <span class="date">{% include localize-date.html date=page.date %}</span>
           <span class="separator">·</span>
           <span class="read-time">{{ content | number_of_words | divided_by: 200 | ceil }} min de leitura</span>
+          </div>
         </div>
         
         {% include cta-app-head.html %}
