@@ -3,14 +3,24 @@
     <img src="https://stockcast.com.br/favicon.png" alt="StockCast" width="40" height="40">
   </div>
   <div class="cta-app__text">
-    <strong class="cta-app__title">Ouça a conferência completa no StockCast</strong>
-    <span class="cta-app__sub">Sem tempo pra ler? Ouça nossa análise exclusiva.</span>
+    <strong class="cta-app__title">Ouça a conferência no StockCast</strong>
+    <span class="cta-app__sub">Sem tempo? Ouça nossa análise exclusiva.</span>
   </div>
+  <div class="cta-container">
   <a class="cta-app__btn"
      href="https://play.google.com/store/apps/details?id=br.eng.jebertacchi.StockCast&referrer=utm_source%3Dblog%26utm_medium%3Dcta_inline_top%26utm_campaign%3D{{ page.slug | default: page.title | slugify }}"
      target="_blank"
      rel="noopener"
      onclick="posthog.capture('cta_click', { origin: 'blog_inline', cta: 'play_store', post: '{{ page.title | escape }}', category: '{{ page.categories | first }}' }); return gtag_report_conversion(this.href);">
-    Baixar grátis
+    <img src="https://stockcast.com.br/GetItOnGooglePlay_Badge_Web_color_Portuguese-Brazil.png" alt="Disponível no Google Play" height="38" />
   </a>
+  <a href="https://app-beta.stockcast.com.br" class="cta-app__btnbrowser"     target="_blank" rel="noopener"
+  onclick="posthog.capture('cta_click', { origin: 'blog_inline', cta: 'webapp', post: '{{ page.title | escape }}', category: '{{ page.categories | first }}' })">
+    <span class="cta-app__btnbrowser-icon">🌐</span>
+    <span class="cta-app__btnbrowser-text">
+    <span class="cta-app__btnbrowser-label">Usar no</span>
+    <span class="cta-app__btnbrowser-action">Navegador</span>
+    </span>
+  </a>
+  </div>
 </div>
